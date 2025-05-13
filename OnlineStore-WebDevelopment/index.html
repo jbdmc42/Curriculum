@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WEBDEV Official Store</title>
+        <link rel="icon" href="Images/OnlineStore-LogoWhite.png" type="image/png">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="top-header">
+            <a class="title">WEBDEV | Your style, our style, WEBDEV style</a>
+            <nav>
+                <ul class="top-list">
+                    <li><a href="#help">HELP</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#contact-us">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </header>
+        <header class="header">
+            <img href="index.html" src="Images/OnlineStore-LogoNoBgBlack.png" alt="Logo" class="logo">
+            <!-- Sandwich Menu -->
+            <div class="menu-container">
+                <button class="menu-toggle">
+                    <img src="Images/OnlineStore-NoUserPlaceHolder.png" alt="User" class="dropdown-menu-user">
+                </button>
+                <div class="dropdown-menu">                   
+                    <form class="dropdown-menu-search-form" action="/search" method="GET">                   
+                        <div class="dropdown-menu-searchbar">    
+                            <input type="text" class="dropdown-menu-search-input" placeholder="Search">
+                            <button type="submit" class="dropdown-menu-search-button">
+                                <img src="Images/OnlineStore-MagnifyingGlass.png" alt="Search" class="dropdown-menu-search-icon">
+                            </button>
+                        </div>
+                    </form>
+                    <div class="dropdown-menu-sign-in">
+                        <p><a href="#">Sign In</a></p>
+                    </div>
+                    <div class="dropdown-menu-options">
+                        <hr><p><a href="#">Men</a></p>
+                        <p><a href="#">Women</a></p>
+                        <p><a href="#">Kids</a></p>
+                        <p><a href="#">Featured</a></p>
+                        <p><a href="#">What's new?</a></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Normal status -->
+            <form class="search-form" action="/search" method="GET">
+                <input type="text" class="search-input" placeholder="Search">
+                <button type="submit" class="search-button">
+                    <img src="Images/OnlineStore-MagnifyingGlass.png" alt="Search" class="search-icon">
+                </button>
+            </form>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Kids</a></li>
+                    <li><a href="#">Featured</a></li>
+                    <li><a href="#">What's new?</a></li>
+                </ul>
+            </nav>
+            <div class="user-signin">
+                <a href="#">Sign In</a>
+            </div>
+            <img src="Images/OnlineStore-NoUserPlaceHolder.png" alt="User" class="user">
+        </header>
+        <div class="carousel-container">
+            <div class="carousel-slide active" id="slide1">
+                <div class="carousel-content">
+                    <a class="main-title-logo">WEBDEV </a>
+                    <a class="main-title">KNOWS YOUR FAVORITES</a><p></p>
+                    <button type="button" href="#" class="carousel-button1">CHECK PRODUCTS</button>
+                </div>
+            </div>
+            <div class="carousel-slide" id="slide2">
+                <div class="carousel-content">
+                    <a class="main-title-logo2">WEBDEV </a>
+                    <a class="main-title2">STYLE FOR ALL</a><p></p>
+                    <button type="button" href="#" class="carousel-button2">SHOP NOW</button>
+                </div>
+            </div>
+            <div class="carousel-slide" id="slide3">
+                <div class="carousel-content">
+                    <a class="main-title-logo3">WEBDEV </a>
+                    <a class="main-title3">DISCOVER NEW TRENDS</a><p></p>
+                    <button type="button" href="#" class="carousel-button3">EXPLORE</button>
+                </div>
+            </div>
+            <div class="carousel-indicators">
+                <span class="indicator" data-index="0"></span>
+                <span class="indicator" data-index="1"></span>
+                <span class="indicator" data-index="2"></span>
+            </div>
+        </div> 
+        <div class="galleries-section">
+            <h2 class="gallery-title">Featured</h2>
+            <div class="gallery-wrapper">
+                <div class="gallery"></div>
+            </div>
+        </div>
+        <div class="galleries-section">
+            <h2 class="gallery-title">T-Shirts & Tops</h2>
+            <div class="gallery-wrapper">
+                <div class="gallery"></div>
+            </div>
+        </div>
+        <div class="galleries-section">
+            <h2 class="gallery-title">Hoodies & Jackets</h2>
+            <div class="gallery-wrapper">
+                <div class="gallery"></div>
+            </div>
+        </div>
+        <div class="galleries-section">
+            <h2 class="gallery-title">Trousers & Shorts</h2>
+            <div class="gallery-wrapper">
+                <div class="gallery"></div>
+            </div>
+        </div>
+        <div class="galleries-section">
+            <h2 class="gallery-title">Bottoms</h2>
+            <div class="gallery-wrapper">
+                <div class="gallery"></div>
+            </div>
+        </div>
+        <div class="galleries-section">
+            <h2 class="gallery-title">Foot Wear</h2>
+            <div class="gallery-wrapper">
+                <div class="fw-gallery"></div>
+            </div>
+        </div>
+        <div class="galleries-section">
+            <h2 class="gallery-title">Winter</h2>
+            <div class="gallery-wrapper">
+                <div class="gallery"></div>
+            </div>
+        </div>
+        <div class="galleries-section">
+            <h2 class="gallery-title">Summer</h2>
+            <div class="gallery-wrapper">
+                <div class="gallery"></div>
+            </div>
+        </div>
+        <div class="footer-div"></div>
+        <footer class="footer"> 
+            <ul class="footer-list-services">
+                <li><a class="list-title">SERVICES</a></li>
+                <div class="list-div"></div>
+                <li><a class="list-item">Promo Codes</a></li>
+                <li><a class="list-item">Newsletter</a></li>
+                <li><a class="list-item">Feedback</a></li>
+            </ul>
+            <ul class="footer-list-help">
+                <li><a class="list-title">HELP & SUPPORT</a></li>
+                <div class="list-div"></div>
+                <li><a class="list-item">Open ticket</a></li>
+                <li><a class="list-item">Shipping and delivery</a></li>
+                <li><a class="list-item">Order status</a></li>
+                <li><a class="list-item">Return an item</a></li>
+                <li><a class="list-item">Payment options</a></li>
+                <li><a class="list-item">Reviews</a></li>
+                <li><a class="list-item">Complaints book</a></li>
+            </ul>
+            <ul class="footer-list-enterprise">
+                <li><a class="list-title">ENTERPRISE</a></li>
+                <div class="list-div"></div>
+                <li><a class="list-item">About WEBDEV</a></li>
+                <li><a class="list-item">Contact</a></li>
+                <li><a class="list-item">Our objective</a></li>
+            </ul>
+        </footer>
+        <script src="homeFeaturedGalleryController.js"></script>
+        <script src="homeFootWearGalleryController.js"></script>
+        <script src="carouselBackgroundController.js"></script>
+        <script src="sandwichMenuController.js"></script>
+    </body>
+</html>
